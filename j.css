@@ -7,7 +7,7 @@
     font-family: 'Roboto', sans-serif;}
     
     body { 
-        background: linear-gradient(90deg,#4411b9 , #000000 , #4411b9  );
+        background: linear-gradient(90deg,#4411b9 , #4411b9  );
     }
     header {
         text-align: center;
@@ -21,27 +21,26 @@
     }
     
     #div-instagram {
-        width: 250px;
-        height: 100px;
-        text-align: center;
-        margin-top: 20px;
-        border-radius: 8px;
         background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        -webkit-box-shadow: 11px 10px 3px 0px rgba(0,0,0,0.29); 
+        text-decoration: underline solid rgb(175, 42, 9);
     }
     #div-jorge{
-        width: 250px;
-        height: 100px;
-        text-align: center;
-        margin-top: 20px;
-        border-radius: 8px;
         background: linear-gradient(#000000 ,#8f071c, #000000);
+        -webkit-box-shadow: 11px 10px 3px 0px rgba(0,0,0,0.29); 
+        text-decoration: underline solid rgb(154, 155, 160);
     }
     
-    .icon-instagram, .icon-facebook, .icon-github, .icon-linkedin {
+    .icon-instagram, .icon-facebook, .icon-linkedin {
         width: 30px;
         padding-top: 10px;
     }
     
+    .icon-git{
+        width: 120px;
+        padding-top: 10px;
+    }
+
     h4 {
         font-size: 20px;
         padding-top: 10px;
@@ -53,24 +52,30 @@
     }
     
     #div-facebook {
-        width: 250px;
-        height: 100px;
-        text-align: center;
-        margin-top: 20px;
-        border-radius: 8px;
         background: linear-gradient( 90deg, rgba(111, 139, 231, 1) 0%, rgba(47, 41, 157, 1) 100%);
+        -webkit-box-shadow: 11px 10px 3px 0px rgba(0,0,0,0.29); 
+        text-decoration: underline solid rgb(53, 108, 219);
     }
     
     
     #div-linkedin {
+        background: linear-gradient(-45deg, #3B5998, #8B9DC3, #DFE3EE);
+        -webkit-box-shadow: 11px 10px 3px 0px rgba(0,0,0,0.29); 
+        text-decoration: underline solid rgb(105, 100, 100);
+    }
+    #div-git{
+        color: #000000;
+        -webkit-box-shadow: 11px 10px 3px 0px rgba(0,0,0,0.29); 
+        background: linear-gradient(-45deg, #535353, #7c7c7c, #DFE3EE);
+    }
+    #div-linkedin, #div-facebook, #div-jorge, #div-instagram, #div-git {
         width: 250px;
         height: 100px;
         text-align: center;
         margin-top: 20px;
         border-radius: 8px;
-        background: linear-gradient(-45deg, #3B5998, #8B9DC3, #DFE3EE);
+        text-decoration: underline solid rgb(105, 100, 100);
     }
-    
     footer {
         margin-top: 20px;
         text-align: center;
