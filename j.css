@@ -10,29 +10,36 @@
         background: linear-gradient(90deg,#4411b9 , #4411b9  );
     }
     header {
-        text-align: center;
-        color: #fff;
+        color: rgb(255, 255, 255);
     }
-    
-    .midoriya {
-        width: 250px;
-        height: 250px;
+    #caixa {
+
+        width: 450px;
+        height: 350px;
         padding-top: 10px;
     }
-    
+
+    #ab {
+        position: absolute;
+        height: 351px;
+        width: 342px;
+        left: 80px;
+        top: 111px;
+        border-radius: 10px;        
+    }
+    .midoriya {
+        width: 350px;
+        height: 350px;
+        padding-top: 10px;
+    }
     #div-instagram {
         background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
         -webkit-box-shadow: 11px 10px 3px 0px rgba(0,0,0,0.29);
-        text-decoration: underline solid rgb(175, 42, 9);
     }
-    #div-jorge{
-        background: linear-gradient(#000000 ,#8f071c, #000000);
-        -webkit-box-shadow: 11px 10px 3px 0px rgba(0,0,0,0.29); 
-        text-decoration: underline solid rgb(154, 155, 160);
-    }
+
     
     .icon-instagram, .icon-facebook, .icon-linkedin {
-        width: 30px;
+        width: 40px;
         padding-top: 10px;
     }
     
@@ -48,33 +55,32 @@
     
     a {
         text-decoration: none;
-        color: #fff;
+        color: rgb(0, 0, 0);
     }
     
     #div-facebook {
         background: linear-gradient( 90deg, rgba(111, 139, 231, 1) 0%, rgba(47, 41, 157, 1) 100%);
-        -webkit-box-shadow: 11px 10px 3px 0px rgba(0,0,0,0.29); 
-        text-decoration: underline solid rgb(53, 108, 219);
+        -webkit-box-shadow: 11px 10px 3px 0px rgba(0,0,0,0.29); ;
     }
     
     
     #div-linkedin {
         background: linear-gradient(-45deg, #3B5998, #8B9DC3, #DFE3EE);
         -webkit-box-shadow: 11px 10px 3px 0px rgba(0,0,0,0.29); 
-        text-decoration: underline solid rgb(105, 100, 100);
+       
     }
     #div-git{
         color: #000000;
         -webkit-box-shadow: 11px 10px 3px 0px rgba(0,0,0,0.29); 
         background: linear-gradient(-45deg, #535353, #7c7c7c, #DFE3EE);
     }
-    #div-linkedin, #div-facebook, #div-jorge, #div-instagram, #div-git {
+    #div-linkedin, #div-facebook, #div-instagram, #div-git {
         width: 250px;
         height: 100px;
         text-align: center;
         margin-top: 20px;
-        border-radius: 8px;
-        text-decoration: underline solid rgb(105, 100, 100);
+        border-radius: 0px;
+        
     }
     footer {
         margin-top: 20px;
