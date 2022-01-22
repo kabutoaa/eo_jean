@@ -17,7 +17,6 @@
 
     }
     #caixa {
-
         width: 450px;
         height: 350px;
         padding-top: 10px;
@@ -32,7 +31,7 @@
     }
     #div-instagram {
         background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-        -webkit-box-shadow: 11px 10px 3px 0px rgba(0,0,0,0.29);
+        box-shadow: 11px 10px 3px 0px rgba(0,0,0,0.29);
     }
 
     
@@ -58,18 +57,18 @@
     
     #div-facebook {
         background: linear-gradient( 90deg, rgba(111, 139, 231, 1) 0%, rgba(47, 41, 157, 1) 100%);
-        -webkit-box-shadow: 11px 10px 3px 0px rgba(0,0,0,0.29); ;
+        box-shadow: 11px 10px 3px 0px rgba(0,0,0,0.29); ;
     }
     
     
     #div-linkedin {
         background: linear-gradient(-45deg, #3B5998, #8B9DC3, #DFE3EE);
-        -webkit-box-shadow: 11px 10px 3px 0px rgba(0,0,0,0.29); 
+        box-shadow: 11px 10px 3px 0px rgba(0,0,0,0.29); 
        
     }
     #div-git{
         color: #000000;
-        -webkit-box-shadow: 11px 10px 3px 0px rgba(0,0,0,0.29); 
+        box-shadow: 11px 10px 3px 0px rgba(0,0,0,0.29); 
         background: linear-gradient(-45deg, #535353, #7c7c7c, #DFE3EE);
     }
     #div-linkedin, #div-facebook, #div-instagram, #div-git {
@@ -93,6 +92,11 @@
             left: 80px;
             top: 111px;
             border-radius: 10px;        
+        }
+        #caixa {
+            width: 450px;
+            height: 350px;
+            padding-top: 10px;
         }
     }
 
